@@ -1,0 +1,25 @@
+
+> tutorial-10@1.0.0 lint
+> eslint . --ext .ts,.tsx
+
+
+D:\NewUU\course in progress\Fundamentals of Software Engineering\Tutorial 10\ts-code-smells-wed9am\jest.config.js
+  1:1  error  'module' is not defined  no-undef
+
+D:\NewUU\course in progress\Fundamentals of Software Engineering\Tutorial 10\ts-code-smells-wed9am\src\Game.test.ts
+    4:28  warning  Arrow function has too many lines (102). Maximum allowed is 50  max-lines-per-function
+   38:9   error    Unexpected var, use let or const instead                        no-var
+   51:9   error    Unexpected var, use let or const instead                        no-var
+   63:9   error    Unexpected var, use let or const instead                        no-var
+   76:9   error    Unexpected var, use let or const instead                        no-var
+   88:9   error    Unexpected var, use let or const instead                        no-var
+  101:9   error    Unexpected var, use let or const instead                        no-var
+
+D:\NewUU\course in progress\Fundamentals of Software Engineering\Tutorial 10\ts-code-smells-wed9am\src\Game.ts
+  27:5   warning  Method 'Winner' has a complexity of 16. Maximum allowed is 10  complexity
+  99:15  warning  'tile' is assigned a value but never used                      no-unused-vars
+  99:15  error    'tile' is assigned a value but never used                      @typescript-eslint/no-unused-vars
+
+✖ 11 problems (8 errors, 3 warnings)
+  6 errors and 0 warnings potentially fixable with the `--fix` option.
+
